@@ -57,9 +57,9 @@ def quiz_open(eco: str, progress_path: str, interactive: bool = True) -> Optiona
     print(f"Moves to learn ({len(tokens)} plies): {' '.join(opening.moves)}")
     print("Type each move in SAN (e.g. e4, Nf3, O-O). Type 'quit' to stop.\n")
 
-    shown = ""
     while move_index < len(tokens):
-        prefix = " ".join(opening.moves[:move_index])
+        # Show only the plies already learned so the answer isn't given away.
+        prefix = " ".join(tokens[:move_index])
         prompt = f"Move {move_index + 1}/{len(tokens)} [{prefix}] > " if prefix else f"Move {move_index + 1}/{len(tokens)} > "
         if interactive:
             try:

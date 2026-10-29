@@ -15,8 +15,10 @@ A local-first, dependency-free Python CLI for exploring chess openings:
 - **Quiz** (`quiz <ECO>`): interactive move-order drill. You type each ply in
   SAN; every guess is scored and appended to local JSON progress
   (`chess_explorer/user_data/progress.json`) with accuracy, streak, and grade.
-- **Tests**: `tests/test_eco.py` (parsing/search) and `tests/test_scoring.py`
-  (accuracy, streaks, grading, session aggregation).
+  The prompt shows only plies already learned — the answer is never given away.
+- **Tests**: `tests/test_eco.py` (parsing/search), `tests/test_scoring.py`
+  (accuracy, streaks, grading, session aggregation), `tests/test_quiz.py`
+  (move normalization and ply splitting).
 - Packaging: `pyproject.toml` (console script `chess-openings`), MIT `LICENSE`,
   `README.md`, `.gitignore`.
 
@@ -35,14 +37,15 @@ python3 -m pytest tests
 ```
 
 Requires Python 3.10+ only (standard library). Also installable via
-`pip install .` for the `chess-openings` console script.
+`pip install .` for the `chess-openings` console script (use
+`--break-system-packages` on externally-managed Python installations).
 
 ## Verification results
 
-- `python3 -m pytest tests`: 24 passed.
-- CLI smoke tests all succeeded: `--version`, `search`, `show` (known and
-  unknown code), `quiz` with piped stdin (progress JSON written correctly),
-  `favorite add/list/remove`.
+- `python3 -m pytest tests`: 36 passed (eco, scoring, and quiz parsing).
+- CLI smoke tests all succeeded: `--version`, `search` (known and unknown
+  query), `show`, `favorite add/list/remove`, `quiz` with piped stdin
+  (progress JSON written correctly; quiz prompt no longer reveals future moves).
 
 ## Known gaps
 
