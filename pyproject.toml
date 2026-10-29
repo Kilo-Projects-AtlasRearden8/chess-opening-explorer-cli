@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chess-opening-explorer"
+version = "1.0.0"
+description = "Local-first Python CLI to explore chess openings: ECO search, Markdown favorites, JSON move-order quiz."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Asdale Dynamics, LLC"}]
+
+[project.scripts]
+chess-openings = "chess_explorer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["chess_explorer*"]

@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "title": "Chess Opening Explorer - ECO Opening Data",
+    "description": "Curated sample of Encyclopedia of Chess Openings (ECO) codes with common move sequences in SAN. Fan-project reference data; not a complete ECO enumeration.",
+    "version": 1,
+    "count": 55
+  },
+  "openings": {
+    "A00": {
+      "name": "Uncommon Opening",
+      "moves": [],
+      "tags": ["flank", "irregular"]
+    },
+    "A01": {
+      "name": "Nimzo-Larsen Attack",
+      "moves": ["1. b3"],
+      "tags": ["flank", "hypermodern"]
+    },
+    "A02": {
+      "name": "Bird's Opening",
+      "moves": ["1. f4"],
+      "tags": ["flank", "kingside"]
+    },
+    "A03": {
+      "name": "Reti Opening",
+      "moves": ["1. Nf3"],
+      "tags": ["flank", "hypermodern"]
+    },
+    "A04": {
+      "name": "Reti Opening, King's Indian Attack setup",
+      "moves": ["1. Nf3 d5 2. b3"],
+      "tags": ["flank", "hypermodern"]
+    },
+    "A05": {
+      "name": "Reti Opening",
+      "moves": ["1. Nf3 d5 2. c4"],
+      "tags": ["flank"]
+    },
+    "A10": {
+      "name": "English Opening",
+      "moves": ["1. c4"],
+      "tags": ["flank", "queenspawn"]
+    },
+    "A13": {
+      "name": "English Opening",
+      "moves": ["1. c4 e5"],
+      "tags": ["flank"]
+    },
+    "A20": {
+      "name": "English Opening",
+      "moves": ["1. c4 e5 2. Nc3"],
+      "tags": ["flank"]
+    },
+    "A21": {
+      "name": "English Opening",
+      "moves": ["1. c4 e5 2. Nc3 Nf6"],
+      "tags": ["flank"]
+    },
+    "A22": {
+      "name": "English Opening",
+      "moves": ["1. c4 e5 2. Nc3 Nf6 3. Nf3"],
+      "tags": ["flank"]
+    },
+    "A29": {
+      "name": "English Opening, Symmetrical",
+      "moves": ["1. c4 c5"],
+      "tags": ["flank", "symmetrical"]
+    },
+    "A30": {
+      "name": "Symmetrical English",
+      "moves": ["1. c4 c5 2. Nc3 Nc6"],
+      "tags": ["flank", "symmetrical"]
+    },
+    "A35": {
+      "name": "Symmetrical English",
+      "moves": ["1. c4 c5 2. Nc3 Nc6 3. Nf3 g6 4. g3 Bg7 5. Bg2"],
+      "tags": ["flank", "symmetrical", "fianchetto"]
+    },
+    "A40": {
+      "name": "Queen's Pawn Game",
+      "moves": ["1. d4"],
+      "tags": ["queenspawn", "d4"]
+    },
+    "A45": {
+      "name": "Richter-Veres Attack",
+      "moves": ["1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5"],
+      "tags": ["queenspawn", "aggressive"]
+    },
+    "A50": {
+      "name": "Old Indian Defense",
+      "moves": ["1. d4 Nf6 2. c4 d6 3. Nc3"],
+      "tags": ["indian", "d4"]
+    },
+    "A51": {
+      "name": "Old Indian Defense",
+      "moves": ["1. d4 Nf6 2. c4 d6 3. Nc3 e6 4. e4"],
+      "tags": ["indian", "d4"]
+    },
+    "A60": {
+      "name": "Benoni Defense",
+      "moves": ["1. d4 Nf6 2. c4 c5"],
+      "tags": ["benoni", "d4", "counterattack"]
+    },
+    "A63": {
+      "name": "Benoni Defense",
+      "moves": ["1. d4 Nf6 2. c4 c5 3. d5 e6"],
+      "tags": ["benoni", "d4"]
+    },
+    "A70": {
+      "name": "Benoni Gambit",
+      "moves": ["1. d4 Nf6 2. c4 c5 3. d5 b5"],
+      "tags": ["benoni", "gambit"]
+    },
+    "A79": {
+      "name": "Modern Benoni",
+      "moves": ["1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. e4 Bg7 8. Be2 O-O 9. O-O Re8 10. Bf4"],
+      "tags": ["benoni", "classical"]
+    },
+    "A80": {
+      "name": "Dutch Defense",
+      "moves": ["1. d4 f5"],
+      "tags": ["dutch", "kingside", "fianchetto"]
+    },
+    "A81": {
+      "name": "Dutch Defense",
+      "moves": ["1. d4 f5 2. c4 Nf6 3. g3 e6"],
+      "tags": ["dutch", "fianchetto"]
+    },
+    "A90": {
+      "name": "Dutch Defense, Leningrad",
+      "moves": ["1. d4 f5 2. c4 Nf6 3. g3 g6 4. Bg2 Bg7 5. Nf3 O-O 6. O-O d6 7. Nc3"],
+      "tags": ["dutch", "leningrad", "fianchetto"]
+    },
+    "B00": {
+      "name": "King's Pawn Opening, irregular",
+      "moves": ["1. e4"],
+      "tags": ["e4", "open"]
+    },
+    "B01": {
+      "name": "Scandinavian Defense",
+      "moves": ["1. e4 d5 2. exd5 Qxd5"],
+      "tags": ["e4", "queen early"]
+    },
+    "B02": {
+      "name": "Scandinavian Defense",
+      "moves": ["1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8"],
+      "tags": ["e4", "queen early"]
+    },
+    "B06": {
+      "name": "Modern Defense",
+      "moves": ["1. e4 g6 2. d4 Bg7"],
+      "tags": ["e4", "hypermodern", "fianchetto"]
+    },
+    "B07": {
+      "name": "Pirc Defense",
+      "moves": ["1. e4 d6 2. d4 Nf6 3. Nc3 g6"],
+      "tags": ["e4", "indian", "fianchetto"]
+    },
+    "B08": {
+      "name": "Pirc Defense",
+      "moves": ["1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O"],
+      "tags": ["e4", "classical"]
+    },
+    "B09": {
+      "name": "Pirc Defense, Austrian Attack",
+      "moves": ["1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Be2"],
+      "tags": ["e4", "aggressive"]
+    },
+    "B10": {
+      "name": "Caro-Kann Defense",
+      "moves": ["1. e4 c6 2. d4 d5"],
+      "tags": ["e4", "solid"]
+    },
+    "B12": {
+      "name": "Caro-Kann Defense, Advance Variation",
+      "moves": ["1. e4 c6 2. d4 d5 3. e5"],
+      "tags": ["e4", "advance"]
+    },
+    "B15": {
+      "name": "Caro-Kann Defense, Panov-Botvinnik Attack",
+      "moves": ["1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3"],
+      "tags": ["e4", "open"]
+    },
+    "B20": {
+      "name": "Sicilian Defense",
+      "moves": ["1. e4 c5"],
+      "tags": ["e4", "sicilian", "most popular"]
+    },
+    "B21": {
+      "name": "Sicilian Defense, Moscow Variation",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. Bb5+"],
+      "tags": ["e4", "sicilian", "anti-sicilian"]
+    },
+    "B22": {
+      "name": "Sicilian Defense, Grand Prix Attack",
+      "moves": ["1. e4 c5 2. Nc3 Nc6 3. f4"],
+      "tags": ["e4", "sicilian", "aggressive"]
+    },
+    "B30": {
+      "name": "Sicilian Defense, Rossolimo Variation",
+      "moves": ["1. e4 c5 2. Nf3 Nc6 3. Bb5"],
+      "tags": ["e4", "sicilian"]
+    },
+    "B33": {
+      "name": "Sicilian Defense, Rossolimo",
+      "moves": ["1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. 0-0 Bg7 5. Re1 e6 6. d4 cxd4 7. Nxd4"],
+      "tags": ["e4", "sicilian"]
+    },
+    "B40": {
+      "name": "Sicilian Defense, Kan Variation",
+      "moves": ["1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6"],
+      "tags": ["e4", "sicilian", "flexible"]
+    },
+    "B43": {
+      "name": "Sicilian Defense, Taimanov Variation",
+      "moves": ["1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6"],
+      "tags": ["e4", "sicilian"]
+    },
+    "B50": {
+      "name": "Sicilian Defense, Najdorf",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6"],
+      "tags": ["e4", "sicilian", "najdorf", "theoretical"]
+    },
+    "B53": {
+      "name": "Sicilian Defense, Najdorf, English Attack",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3"],
+      "tags": ["e4", "sicilian", "najdorf", "aggressive"]
+    },
+    "B60": {
+      "name": "Sicilian Defense, Richter-Rauzer",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5"],
+      "tags": ["e4", "sicilian", "complex"]
+    },
+    "B70": {
+      "name": "Sicilian Defense, Dragon Variation",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6"],
+      "tags": ["e4", "sicilian", "dragon", "fianchetto"]
+    },
+    "B78": {
+      "name": "Sicilian Defense, Yugoslav Attack",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O"],
+      "tags": ["e4", "sicilian", "yugoslav", "sharp"]
+    },
+    "B90": {
+      "name": "Sicilian Defense, Najdorf",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Nbd7 8. Qd2"],
+      "tags": ["e4", "sicilian", "najdorf"]
+    },
+    "B95": {
+      "name": "Sicilian Defense, Najdorf, Scheveningen structure",
+      "moves": ["1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3 Nbd7 8. Qd2 b5"],
+      "tags": ["e4", "sicilian", "najdorf", "sharp"]
+    },
+    "C00": {
+      "name": "French Defense",
+      "moves": ["1. e4 e6"],
+      "tags": ["e4", "closed", "solid"]
+    },
+    "C01": {
+      "name": "French Defense",
+      "moves": ["1. e4 e6 2. d4 d5 3. Nc3"],
+      "tags": ["e4", "closed"]
+    },
+    "C11": {
+      "name": "French Defense, Exchange Variation",
+      "moves": ["1. e4 e6 2. d4 d5 3. exd5 exd5"],
+      "tags": ["e4", "exchange"]
+    },
+    "C14": {
+      "name": "French Defense, Tarrasch Variation",
+      "moves": ["1. e4 e6 2. d4 d5 3. Nd2"],
+      "tags": ["e4", "tarrasch"]
+    },
+    "C18": {
+      "name": "French Defense, Winawer Variation",
+      "moves": ["1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5"],
+      "tags": ["e4", "winawer", "sharp"]
+    },
+    "C20": {
+      "name": "King's Knight Opening",
+      "moves": ["1. e4 e5 2. Nf3"],
+      "tags": ["e4", "open", "classical"]
+    },
+    "C24": {
+      "name": "King's Knight Opening",
+      "moves": ["1. e4 e5 2. Nf3 Nf6"],
+      "tags": ["e4", "petrov setup"]
+    },
+    "C30": {
+      "name": "King's Knight Opening",
+      "moves": ["1. e4 e5 2. Nf3 Nc6"],
+      "tags": ["e4", "classical"]
+    },
+    "C33": {
+      "name": "King's Knight Opening",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5"],
+      "tags": ["e4", "spanish setup"]
+    },
+    "C40": {
+      "name": "King's Knight Opening",
+      "moves": ["1. e4 e5 2. Nf3 Nf6 3. Nc3"],
+      "tags": ["e4", "four knights setup"]
+    },
+    "C42": {
+      "name": "Petrov Defense",
+      "moves": ["1. e4 e5 2. Nf3 Nf6"],
+      "tags": ["e4", "symmetrical", "drawish"]
+    },
+    "C44": {
+      "name": "King's Knight Opening",
+      "moves": ["1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6"],
+      "tags": ["e4", "four knights"]
+    },
+    "C47": {
+      "name": "Four Knights Game",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6"],
+      "tags": ["e4", "classical"]
+    },
+    "C50": {
+      "name": "Italian Game",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bc4"],
+      "tags": ["e4", "open", "classical"]
+    },
+    "C53": {
+      "name": "Italian Game, Giuoco Piano",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3"],
+      "tags": ["e4", "classical", "quiet"]
+    },
+    "C55": {
+      "name": "Italian Game, Giuoco Pianissimo",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3"],
+      "tags": ["e4", "quiet"]
+    },
+    "C56": {
+      "name": "Italian Game, Two Knights Defense",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6"],
+      "tags": ["e4", "sharp", "tactical"]
+    },
+    "C60": {
+      "name": "Ruy Lopez, Spanish Opening",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5"],
+      "tags": ["e4", "spanish", "classical"]
+    },
+    "C65": {
+      "name": "Ruy Lopez, Berlin Defense",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6"],
+      "tags": ["e4", "spanish", "berlin", "drawish"]
+    },
+    "C70": {
+      "name": "Ruy Lopez, Morphy Defense",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5 a6"],
+      "tags": ["e4", "spanish", "morphy"]
+    },
+    "C74": {
+      "name": "Ruy Lopez, Morphy Defense",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5"],
+      "tags": ["e4", "spanish", "main line"]
+    },
+    "C78": {
+      "name": "Ruy Lopez, Open Defense",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4"],
+      "tags": ["e4", "spanish", "open"]
+    },
+    "C84": {
+      "name": "Ruy Lopez, Closed Defense",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d6 9. h3 Nb8 10. d4 Nbd7"],
+      "tags": ["e4", "spanish", "closed", "strategic"]
+    },
+    "C89": {
+      "name": "Ruy Lopez, Marshall Counter-Gambit",
+      "moves": ["1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6"],
+      "tags": ["e4", "spanish", "marshall", "gambit", "famous"]
+    },
+    "D00": {
+      "name": "Queen's Gambit",
+      "moves": ["1. d4 d5 2. c4"],
+      "tags": ["d4", "queenspawn", "gambit"]
+    },
+    "D02": {
+      "name": "Queen's Gambit Accepted",
+      "moves": ["1. d4 d5 2. c4 dxc4"],
+      "tags": ["d4", "accepted"]
+    },
+    "D30": {
+      "name": "Queen's Gambit Declined",
+      "moves": ["1. d4 d5 2. c4 e6"],
+      "tags": ["d4", "declined", "solid"]
+    },
+    "D35": {
+      "name": "Queen's Gambit Declined",
+      "moves": ["1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5"],
+      "tags": ["d4", "classical"]
+    },
+    "D45": {
+      "name": "Tarrasch Defense",
+      "moves": ["1. d4 d5 2. c4 e6 3. Nc3 c5"],
+      "tags": ["d4", "tarrasch", "active"]
+    },
+    "E00": {
+      "name": "Catalan Opening",
+      "moves": ["1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3"],
+      "tags": ["d4", "indian", "fianchetto", "catalan"]
+    },
+    "E01": {
+      "name": "Catalan Opening, Open",
+      "moves": ["1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2"],
+      "tags": ["d4", "catalan", "fianchetto"]
+    },
+    "E10": {
+      "name": "Bogo-Indian Defense",
+      "moves": ["1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+"],
+      "tags": ["d4", "indian", "bogo"]
+    },
+    "E20": {
+      "name": "Nimzo-Indian Defense",
+      "moves": ["1. d4 Nf6 2. c4 e6 3. Nc3 Bb4"],
+      "tags": ["d4", "indian", "nimzo", "popular"]
+    },
+    "E23": {
+      "name": "Nimzo-Indian Defense, Classical Variation",
+      "moves": ["1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. a3 Bxc3+ 6. Qxc3"],
+      "tags": ["d4", "nimzo"]
+    },
+    "E40": {
+      "name": "Nimzo-Indian Defense, Sämisch Variation",
+      "moves": ["1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3"],
+      "tags": ["d4", "nimzo", "samisch", "aggressive"]
+    },
+    "E50": {
+      "name": "Nimzo-Indian Defense, Rubinstein Variation",
+      "moves": ["1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3"],
+      "tags": ["d4", "nimzo", "rubinstein", "solid"]
+    },
+    "E60": {
+      "name": "King's Indian Defense",
+      "moves": ["1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6"],
+      "tags": ["d4", "indian", "kings indian", "fianchetto"]
+    },
+    "E70": {
+      "name": "King's Indian Defense",
+      "moves": ["1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O"],
+      "tags": ["d4", "kings indian", "main line"]
+    },
+    "E80": {
+      "name": "King's Indian Defense, Mar del Plata",
+      "moves": ["1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. b4"],
+      "tags": ["d4", "kings indian", "sharp", "famous"]
+    },
+    "E90": {
+      "name": "King's Indian Defense",
+      "moves": ["1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Na6"],
+      "tags": ["d4", "kings indian"]
+    }
+  }
+}
